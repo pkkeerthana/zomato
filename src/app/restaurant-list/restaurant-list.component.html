@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-1-of-2" *ngFor="let each of Restaurants">
+        <div class="card">
+            <div class="card_content" (click)="navigateReview(each['restaurant'])">
+                <div class="img_div float_left">
+                    <img [src]="each['restaurant'].thumb" alt="food" class="card_img">
+                </div>
+                <div class="card_details float_left">
+                    <p class="restaurant_name padding_5">{{each['restaurant'].name}}</p>
+                    <p class="food_details padding_5" >
+                    {{each['restaurant'].cuisines}}
+                    </p>
+                    <p class="food_details padding_5">Cost: {{each['restaurant'].average_cost_for_two}}</p>
+                    <p class="payment padding_5">Rating: {{each['restaurant'].user_rating.aggregate_rating}}</p>
+                    <p class="payment padding_5">Payment mode</p>
+                </div>
+            </div>
+            <div class="card_footer">
+                    <div class="float_right custom_text" (click)="openDialog()">
+                        Accept Order &#x27A7;
+                    </div>
+            </div>
+        </div>
+
+    </div>
+</div>

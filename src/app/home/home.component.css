@@ -1,0 +1,33 @@
+
+.row{
+    width:100%;
+}
+
+.grid-container{
+    width:100%;
+    padding: 0 4.5rem;
+}
+.margin_top{
+    margin-top:1rem;
+}
+.col-1-of-6{
+    width: calc((100% - (5 * 20px))/6);
+}
+
+.col-5-of-6{
+    width: calc(5 * ((100% - (5 * 20px))/6)  + 4 * 20px);
+}
+
+.col-horizontal{
+    float:left;
+}
+
+.margin_10{
+    margin-right: 20px;
+}
+
+.title{
+    padding: 1rem 4.5rem;
+    padding-top: 4rem;
+    font-size: 2rem;
+}

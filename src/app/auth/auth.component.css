@@ -1,0 +1,43 @@
+.col-6{
+    width:50%;
+    position: relative;
+    left:25%;
+    margin-top:5%;
+}
+
+label{
+    display: inline-block;
+    padding-left:1%;
+    color:gray;
+}
+
+.form-control {
+    width:100%;
+    display: block;
+    height:35px;
+    padding-left:15px;
+    border-radius:5px;
+    border:1px solid rgb(180, 180, 180);
+}
+
+.form-group{
+    margin-bottom:5%;
+}
+
+.btn-login{
+    text-transform: capitalize;
+    padding:.5rem 1rem;
+    background:rgba(146, 0, 0, 0.747);
+    border:none;
+    border-radius:10px;
+    color:white;
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+
+.error_msg{
+    color:rgb(133, 3, 3);
+    background:rgba(122, 0, 0, 0.137);
+    padding:0.5rem 1rem;
+    border-radius: 10px;
+}

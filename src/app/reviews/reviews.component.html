@@ -1,0 +1,27 @@
+
+<div class="row pos_left">
+    <button class="back-btn" routerLink="/home">back</button>
+</div>
+<div class="row">
+
+    <div class="col-1-of-3">
+        <div class="card">
+            <div class="card_content">
+                <div class="img_div float_left">
+                   <img [src]=restaurant.featured_image alt="photo" class="featured_image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2-of-3">
+        <p class="title">{{restaurant.name}}</p>
+        <p class="subtitle">{{restaurant.establishment}}</p>
+        <p class="subtitle">{{restaurant.cuisines}}</p>
+        <p><b><u>Reviews</u></b></p>
+        <p *ngFor="let each of reviews">
+            {{each.review.review_text}}
+        </p>
+    </div>
+
+</div>

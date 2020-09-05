@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="search_container">
+        <div class="form-group">
+            <label for="search">Search Collections</label>
+            <input type="text"
+            class="form-control"
+            placeholder="try out numbers 35, 67..."
+            ngModel
+            #searchId
+            name="search_id" (keydown)="onSearch($event)">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="card" *ngFor="let each of collections" (click)="openDialog()">
+        <p class="title">
+            {{ each['collection'].description}}
+        </p>
+        <img [src]=each.collection.image_url alt="photo" class="collection_image">
+    </div>
+</div>

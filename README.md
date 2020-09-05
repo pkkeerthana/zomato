@@ -1,3 +1,9 @@
+credentials for logging in :
+
+user: foodie@zomato.com
+password: foodie123
+
+
 # Zomato
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.11.

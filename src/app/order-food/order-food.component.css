@@ -1,0 +1,11 @@
+.pos_text{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    left:40vw;
+    top:20vh;
+    color:green;
+    font-size: 2rem;
+    font-weight: 700;
+    padding:1rem;
+}

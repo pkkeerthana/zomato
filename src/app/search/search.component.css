@@ -1,0 +1,32 @@
+.search_container{
+    border:1px solid lightgray;
+    background: white;
+    padding:.5rem;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.form-group{
+    float:left;
+    margin:0 .5rem;
+}
+
+
+label {
+    width:100%;
+    display: inline-block;
+    color:rgb(189, 188, 188);
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.form-control {
+    display:block;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid lightgray;
+}
+
+.input_long{
+    width: 50vw;
+}

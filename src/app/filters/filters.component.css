@@ -1,0 +1,38 @@
+.filter_box{
+    background: white;
+    padding:1rem;
+}
+
+.form-group{
+    margin:1rem;
+}
+
+.title{
+    font-size: 1.2rem;
+    margin-bottom:.3rem;
+}
+
+.filter_title{
+    font-size: 1rem;
+    margin-bottom:.3rem;
+}
+
+label{
+    font-size: .7rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+.filter_2{
+    padding:.2rem 0;
+    font-size: .8rem;
+}
+.cuisine_filter{
+    font-size: 1rem;
+    margin-bottom:.3rem;
+}
+.filter_3{
+    font-size: .7rem;
+}
